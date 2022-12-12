@@ -164,9 +164,72 @@ cursor: pointer;
   text-transform: uppercase;
 }
 /* Forside 1 */
-
-
-
+/* <!-- Produkt section --> */
+.galleri{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.galleri h3{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+.galleri img{
+  width: 100%;
+  height: 266px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+}
+.galleri a{
+  text-decoration: none;
+}
+.galleri p{
+  text-align: center;
+  color: aliceblue;
+  padding-top: 0 8px;
+}
+.galleri h6{
+  font-size: 26px;
+  text-align: center;
+  color: #154734;
+  margin: 0;
+}
+.galleri button{
+  text-align: center;
+  font-size: 24px;
+  color: #154734;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.content{
+  width: 20%;
+  height: 402px;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.content:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.22);
+  transform: translate(0px, -8px);
+}
 
 /* Footer Start */
 /* Tuborg del */
