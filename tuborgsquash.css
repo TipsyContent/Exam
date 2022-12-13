@@ -1,5 +1,23 @@
 *{
 }
 body{
+
+}
+.htop{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background: #FAA92D;
+}
+.htop h1{
+    margin-top: 50vh;
+    font-size: 6em;
+    font-family: 'tuborg',Arial, Helvetica, sans-serif;
+    color: white;
+}
+.htop h2{
+    font-size: 7em;
+    color: white;
+    margin: 0;
 }
