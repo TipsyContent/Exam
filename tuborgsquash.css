@@ -9,7 +9,14 @@ body{
     align-items: center;
     flex-direction: column;
     background: #FAA92D;
+    overflow: hidden;
 }
+/* Forsøg på at lave sne effect på siden "pressingKeys" youtube guide fulgt */
+.snowfall{
+    height: 100vh;
+}
+
+/* Snowfall stop */
 .htop h1{
     margin-top: 50vh;
     font-size: 6em;
