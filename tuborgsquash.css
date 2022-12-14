@@ -84,3 +84,91 @@ body{
     color: white;
     margin: 0;
 }
+/* Tuborg Varianter starter */
+.varianter h1{
+    font-size: 2em;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'tuborg',Arial, Helvetica, sans-serif;
+    color: white;
+}
+.varianter h2{
+    font-size: 2em;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'tuborg',Arial, Helvetica, sans-serif;
+    color: white;
+}
+.varianter{
+    align-items: center;
+    flex-direction: column;
+    background: #FAA92D;
+}
+.variants{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+
+.variants img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+}
+.variants img:hover{
+    transform: scale(1.1); 
+}
+/* Varianter stopper */
+/* Tuborg Varianter starter forside*/
+.fvarianter h1{
+    font-size: 6em;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'tuborg',Arial, Helvetica, sans-serif;
+    color: white;
+}
+.fvarianter h2{
+    font-size: 2em;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'tuborg',Arial, Helvetica, sans-serif;
+    color: white;
+}
+.fvarianter{
+    padding-top: 60px;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    background: #9CCEF3;
+}
+.fvariants{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.fvariant{
+    padding: 20px;
+}
+.fvariants img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+}
+.fvariants img:hover{
+    transform: scale(1.1); 
+}
+/* Varianter stopper */
