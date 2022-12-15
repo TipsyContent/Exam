@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tuborgsquash.css">
-    <title>Tuborg Squash</title>
+    <title>Document</title>
 </head>
+
 <body>
-      <!-- Header start -->
+    <!-- Header start -->
   <header>
     <div class="logo">
       <!-- Kunne ik finde en fix til mit logo størelse så har lavet en style for at holde den inde i headeren da den overcuttede og kunne ik ændre størelse i css filen -->
@@ -22,9 +23,9 @@
     </div>
       </div>
     <ul>
-      <li><a href="index.html" class="active">Hjem</a></li>
+      <li><a href="#" class="active">Hjem</a></li>
     
-      <li><a href="index.html#fvariants">Produkter</a></li>
+      <li><a href="#fvariants">Produkter</a></li>
       <li><a href="https://www.tuborg.dk/musikken">Musikken</a></li>
       <li><a href="https://www.tuborg.dk/drik-med-respekt">Drik Med Respekt</a></li>
       <li><a href="https://www.tuborg.dk/tuborg-fondet">Tuborgfondet</a></li>
@@ -37,27 +38,79 @@
       <div></div>
     </label>
     <!-- Burgermenu slut -->
-  </header>
-  <div class="front">
-    <div class="hero">
-      <!-- Snowfall effect tutorial Invention Tricks YT -->
-        <div class="snow_wrap">
-          <h1>Tuborg Squash</h1>
-          <h2>Nu med julesmag</h2>
-          <p></p>
-          <div class="snow"></div>
-          
-        </div>
-        <div class="htop">
-            <h1>Tuborg Squash</h1>
-            <h2>Nu med julesmag</h2>
-            <p></p>
-        </div>
 
-        <div class="hmid"></div>
-        <div class="hbut"></div>
+  </header>
+  <!-- Header Slut -->
+<!-- Forsiden starter -->
+<div class="produktside">
+    <section class="cardscontainers">
+        <div class="produktetsquash">
+            <img src="1 web/Produkter/SquashJul.png" alt="">
+        </div>
+        <div class="produktetinfomation">
+            <hr>
+            <h1>Om Tuborg Jule Squash</h1>
+            <hr>
+            <div class="inforow">
+                <div class="inforowcol">
+                    <h3>Type</h3>
+                    <p>Læskedrik</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Udsende</h3>
+                    <p>Gul som solbeskinnede appelsiner</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Ingredienser</h3>
+                    <p>sukker, appelsinsaft (5,8%), kuldioxid, syre (citronsyre), konserveringsmiddel (E202), appelsinolier, gulerodssaft, antioxidant (ascorbinsyre), stabilisator (johannesbrødkernemel)</p>
+                </div>
+                <div class="inforowcol">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+                <hr>
+                <h1>Næringsindhold per 100ml</h1>
+                <hr>
+            <div class="inforow">
+                <div class="inforowcol">
+                    <h3>Kj</h3>
+                    <p>197</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Kulhydrat</h3>
+                    <p>11,3 gram</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Kcal</h3>
+                    <p>46</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Heraf sukkerarter</h3>
+                    <p>11,3 gram</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Fedt</h3>
+                    <p>0 gram</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Protein</h3>
+                    <p>0 gram</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Mættede fedtsyrer</h3>
+                    <p>0 gram</p>
+                </div>
+                <div class="inforowcol">
+                    <h3>Salt</h3>
+                    <p>0 gram</p>
+                </div>
+            </div>
+
+
+        </div>
     </div>
-  </div>
+    </section>
   <!-- SCROLL TO TOP -->
   <button onclick="topFunction()" id="myBtn" title="Go to top">
     <img src="1 web/circle-arrow-up-solid.svg" alt="Up arrow"></button>
@@ -80,45 +133,39 @@
 }
   </script>
   <!-- SCROLL TO TOP slut -->
-   <!-- Varianter starter -->
-   <div class="varianter">
+  <!-- Varianter starter -->
+  <div class="varianter">
     
-<div class="containerts">
-  <h1>Tuborg Squash</h1>
-  <h1>Varianter</h1>
-  <div class="variants">
-    <div class="variant">
-      <a href="squash.html">
-        <img src="1 web/Produkter/Squash.png" alt="Original Squash">
-        <h2>Squash</h2>
-      </a>
+    <div class="containerts">
+      <h1>Tuborg Squash</h1>
+      <h1>Varianter</h1>
+      <div class="variants">
+        <div class="variant">
+          <a href="squash.html">
+            <img src="1 web/Produkter/Squash.png" alt="Original Squash">
+            <h2>Squash</h2>
+          </a>
+        </div>
+        <div class="variant">
+          <a href="squash_light.html">
+          <img src="1 web/Produkter/squash light.png" alt="Lemon Squash">
+          <h2>Squash Light</h2>
+          </a>
+        </div>
+        <div class="variant">
+          <a href="squash_jul.html">
+          <img src="1 web/Produkter/SquashJul.png" alt="Jule Squash">
+          <h2>Jule Squash</h2>
+          </a>
+        </div>
+        <div class="variant">
+          <a href="squash_grape.html">
+          <img src="1 web/Produkter/Grapefruit.png" alt="Grape Squash">
+          <h2>Grape Frugt</h2>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="variant">
-      <a href="squash_light.html">
-      <img src="1 web/Produkter/squash light.png" alt="Lemon Squash">
-      <h2>Squash Light</h2>
-      </a>
-    </div>
-    <div class="variant">
-      <a href="squash_jul.html">
-      <img src="1 web/Produkter/SquashJul.png" alt="Jule Squash">
-      <h2>Jule Squash</h2>
-      </a>
-    </div>
-    <div class="variant">
-      <a href="squash_grape.html">
-      <img src="1 web/Produkter/Grapefruit.png" alt="Grape Squash">
-      <h2>Grape Frugt</h2>
-      </a>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
 
   <!-- FOOTER STARTS -->
   <footer class="footer">
